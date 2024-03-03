@@ -1,7 +1,7 @@
 /* Testimonials.css */
 
 .background-container {
-    background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Others/background2.webp);
+    background-color: rgba(22, 34, 55, 1);
     background-size: cover;
     background-position: center;
     height: 100vh;

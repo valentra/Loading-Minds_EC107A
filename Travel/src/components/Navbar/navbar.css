@@ -1,4 +1,6 @@
-
+.nav__container{
+    background-color: rgba(164, 167, 185, 1);
+}
 .nav{
     
     background: rgba(255, 255, 255, 0.1);
@@ -28,7 +30,7 @@ background:transparent;
 padding: 15px 20px 15px 20px;
 border-radius:50%;
 display:flex;
-color:rgb(207, 193, 193);
+color:rgba(17, 54, 90, 1);
 font-size:1.1rem;
 text-align: center;
 text-decoration: none;
