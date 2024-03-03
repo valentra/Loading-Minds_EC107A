@@ -1,10 +1,18 @@
 import React from 'react'
-import '../Home/Home.css'
+
+import './Home.css'
+
 const Home = () => {
   return (
-    <div classname="main">
-      
-    </div>
+
+      <div className='main__container section__padding'>
+        <h1>Travel</h1>
+
+        <div className='main__container__content'>
+
+        </div>
+      </div>
+
   )
 }
 

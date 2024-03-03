@@ -1,8 +1,18 @@
-.body{
-    margin: 0;
-    padding:0;
-    background-color: 	#0a205a;
+.main__container
+{
+    background: url("../../assets/mountain.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.main{
-    background-color: 	#0a205a;
+h1
+{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    z-index: 2;
 }
