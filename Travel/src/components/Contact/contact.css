@@ -1,0 +1,88 @@
+.getintouch {
+    background-color: rgba(22, 34, 55, 1);
+    padding: 100px 100px; /* Adjusted padding, 20px left padding */
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sub-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; /* Text color set to white */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 2px solid #fff; /* Border color set to white */
+    border-radius: 10px;
+    padding: 20px 20px; /* Adjusted padding */
+    width: 50%; /* Input fields take full width */
+    transition: border-color 0.3s ease;
+    color: #fff; /* Text color set to white */
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-outline-primary {
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.animated-image {
+    animation: bounce 2s infinite alternate; /* Adjust animation timing and behavior as needed */
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the distance of the float */
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  animation: floatAnimation 2s ease-in-out infinite; /* Adjust animation duration as needed */
+}
+/* contact.css */
+
+.banner {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
