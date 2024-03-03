@@ -1,0 +1,26 @@
+/* Testimonials.css */
+
+.background-container {
+    background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Others/background2.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .card-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Adjust the max-width as needed */
+    padding: 2rem;
+  }
+  
+  .circular-image {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  

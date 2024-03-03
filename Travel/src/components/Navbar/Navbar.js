@@ -18,6 +18,12 @@ const Navbar = () => {
         <div className='icon-container'>
           <div className='con'><a href="#">Reviews</a></div>
         </div>
+        <div className='icon-container'>
+          <div className='con'><a href="#">Testimonials</a></div>
+        </div>
+        <div className='icon-container'>
+          <div className='con'><a href="#">Contact </a></div>
+        </div>
       </div>
     </div>
       

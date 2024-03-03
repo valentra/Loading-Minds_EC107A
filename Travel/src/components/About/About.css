@@ -1,0 +1,30 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value as needed */
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Adjust this value as needed */
+}
+
+.text-section {
+    flex: 1;
+    padding-right: 20px;
+    color:rgba(115, 121, 133, 1)
+}
+.text-section h1{
+    color:rgb(198, 43, 102);
+}
+.image-section {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.image-section img {
+    width: 80%;
+    height: auto;
+}
