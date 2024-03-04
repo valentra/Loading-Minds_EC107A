@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-
+import "./Booking.css"
 import standardRoomImage from "../../assets/japan.png";
 import deluxeRoomImage from "../../assets/cuba.png";
 import suiteImage from "../../assets/paris.png";
