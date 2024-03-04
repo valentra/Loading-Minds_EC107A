@@ -4,6 +4,7 @@ import "./Booking.css"
 import standardRoomImage from "../../assets/japan.png";
 import deluxeRoomImage from "../../assets/cuba.png";
 import suiteImage from "../../assets/paris.png";
+import bookingImage from "../../assets/circle.png";
 
 const sampleCards = [
   {
@@ -56,6 +57,7 @@ const Carousel = ({ cards }) => {
 const Booking = () => {
   return (
     <Container className="booking-section">
+    <BookingImage src={bookingImage} alt="Booking" />
       <Title>Book Your Stay</Title>
       <Carousel cards={sampleCards} />
     </Container>
@@ -65,6 +67,24 @@ const Booking = () => {
 const Container = styled.section`
   padding: 2rem;
 `;
+
+const BookingImage = styled.img`
+  display: block;
+  margin: 0 auto; 
+  width: 60vh; 
+  height: auto; 
+  animation: rotate 10s linear infinite; 
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+`;
+
 
 const Title = styled.h2`
   text-align: center;
