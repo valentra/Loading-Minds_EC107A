@@ -50,6 +50,9 @@ const BookingContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media(max-width:898px){
+    flex-direction: column;
+  }
 `;
 
 const BookingContent = styled.div`
@@ -107,6 +110,8 @@ const FormButton = styled.button`
 const MapContainer = styled.div`
   flex: 1;
   height: 400px;
+ justify-content:center;
+ align-items:center;
 `;
 
 const MapImage = styled.img`
