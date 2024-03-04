@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../Navbar/Navbar";
+// import Navbar from "../Navbar/Navbar";
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineDateRange } from "react-icons/md";
 import { IoMdPerson } from "react-icons/io";

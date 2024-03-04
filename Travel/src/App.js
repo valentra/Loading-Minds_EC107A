@@ -16,7 +16,10 @@ export default function App() {
       <About/>
       <Booking/>
       <Destination/>
+      <div className="App">
       <Testimonials/>
+      </div>
+      
       <Contact/>
       <Footer/>
     </div>
