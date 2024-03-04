@@ -3,7 +3,7 @@ import styled from "styled-components";
 import mapImage from "../../assets/japan.png"; // Assuming you have a map image in your assets folder
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
-const Destination = () => {
+const Book = () => {
   return (
     <BookingSection>
       <BookingContainer>
@@ -114,4 +114,4 @@ const MapImage = styled.img`
   border-radius: 8px;
 `;
 
-export default Destination;
+export default Book;
