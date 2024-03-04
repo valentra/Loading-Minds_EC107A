@@ -11,7 +11,7 @@ const Home = () => {
       <p className='text glow'>
       <span className='special-font no-glow'>Discover, Explore, Wander</span> - Your Ultimate Travel Companion!
       </p>
-      {/* <div className='block'>
+      <div className='block'>
       <div className='destination' style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#333', fontSize: '1.2rem' }}>
           <CiLocationOn style={{ color: ' #c22a67', fontSize: '2rem' }} /> Destination
       </div>
@@ -26,7 +26,7 @@ const Home = () => {
           Book your trip!
         </button>
       </div>
-    </div> */}
+    </div>
     </div>
   )
 }
