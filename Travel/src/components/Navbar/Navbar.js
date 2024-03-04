@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <label>
+      <label className="ham">
         <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} />
         <span className="menu">
           <span className="hamburger"></span>

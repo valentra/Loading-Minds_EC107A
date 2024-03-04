@@ -6,6 +6,7 @@
     height: 100vh; /* Adjust this value as needed */
     background: linear-gradient(to bottom, #090614, #162237);
     width:100%;
+    padding-top: 100px;
 }
 
 .about-section {

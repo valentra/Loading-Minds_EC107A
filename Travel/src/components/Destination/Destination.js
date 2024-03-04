@@ -39,7 +39,7 @@ const Book = () => {
 };
 
 const BookingSection = styled.section`
-  background-color: #587CB0;
+  background-color: rgba(22, 34, 55, 1);
   box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
   padding: 4rem 0;
 `;
