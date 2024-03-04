@@ -6,15 +6,16 @@ import Booking from "./components/Booking/Booking";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/Footer";
+import Destination from "./components/Destination/Destination";
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      
       <Home />
       <About/>
       <Booking/>
+      <Destination/>
       <Testimonials/>
       <Contact/>
       <Footer/>
