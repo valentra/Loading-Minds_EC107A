@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Adjust this value as needed */
+    background: linear-gradient(to bottom, #090614, #162237);
 }
 
 .about-section {
@@ -20,6 +21,8 @@
     color:rgb(198, 43, 102);
 }
 .image-section {
+    display: flex;
+    justify-content: flex-end;
     flex: 1;
     padding-left: 20px;
 }

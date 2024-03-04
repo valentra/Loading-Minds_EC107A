@@ -6,7 +6,7 @@ const Home = () => {
   return (
 
       <div className='main__container section__padding'>
-        <h1>Travel</h1>
+        <h1>Discover endless journeys with Travela: where every click sparks adventure!</h1>
 
         <div className='main__container__content'>
 
