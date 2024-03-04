@@ -12,7 +12,7 @@
   
 
 
-max-width: max-content;
+width: max-content;
 justify-content: center;
 padding:0.7rem 2.7rem ;
 top: 0;
@@ -28,10 +28,14 @@ box-shadow: 0px 4px 3.5px 0px rgba(0, 0, 0, 0.15);
 
 
 }
+.ham{
+    display: none;
+}
 .nav a{
 background:transparent;
-/* padding-left: 90px; */
-padding: 15px 20px 15px 20px;
+justify-content: center;
+align-items: center;
+padding: 15px 15px 15px 15px;
 border-radius:50%;
 display:flex;
 color:#7D7C78;
@@ -49,64 +53,46 @@ text-decoration: none;
   align-items: center;
   justify-content: center;
 }
-label 
-{
-    display: none;
-  }
+
 
 @media screen and (max-width: 1435px) {
 .nav a{
     padding-right:10px ;
     padding-left: 10px;
 }
-label 
-{
-    display: none;
-  }
 }
 @media screen and (max-width: 1184px) {
     .nav a{
         padding-right:5px ;
         padding-left: 5px;
     }
-    label 
-{
-    display: none;
-  }
+    
     } 
 @media screen and (max-width:1073px) {
         .nav a{
             padding-right:3px ;
             padding-left: 3px;
         }
-        label 
-{
-    display: none;
-  }
+     
         }
 @media screen and (max-width:1033px) {
             .nav a{
                 padding-right:1px ;
                 padding-left: 1px;
             }
-            label 
-{
-    display: none;
-  }
-}
-@media screen and (max-width: 977px) {
-            .nav {
-                display:none;
-            }
-            
+           
 }
 
+
 @media (max-width: 1000px) {
-    label {
-          display: block;
-      }
-    .navbar {
-      display: none;
+    .nav__container{
+        display: none;
+    }
+    .nav {
+        display:none;
+    }
+    .ham{
+        display:flex;
     }
     
     label .menu {
