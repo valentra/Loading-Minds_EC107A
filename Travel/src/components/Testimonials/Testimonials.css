@@ -1,26 +1,44 @@
-/* Testimonials.css */
-
-.background-container {
-    background-color: rgba(22, 34, 55, 1);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+/* Slideshow */
+.container{
+	background-color: rgba(22, 34, 55, 1);
+	margin:0;
+	padding: 0;
+}
+.container h1{
+	text-align: center;
+	color: #fff;
+	font-size: 36px;
+	margin-bottom:60px;
+	top:0;
+}
+.slideshow {
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 500px;
   }
   
-  .card-container {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px; /* Adjust the max-width as needed */
-    padding: 2rem;
+  .slideshowSlider {
+	white-space: nowrap;
   }
   
-  .circular-image {
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  .slide {
+	display: inline-block;
+  
+	height: 400px;
+	width: 100%;
+	border-radius: 40px;
   }
   
+  /* Buttons */
+  .slideshowDots {
+	text-align: center;
+  }
+  .slideshowDot {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 15px 7px 0px;
+	background-color: #c4c4c4;
+  }

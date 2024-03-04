@@ -1,53 +1,34 @@
-import React from 'react'
+import Carousel from 'react-bootstrap/Carousel';
+import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
-const Testimonials = () => {
+function Testimonials() {
   return (
-    <div>
-      
-    </div>
-  )
+    <Carousel>
+      <Carousel.Item interval={1000}>
+        <ExampleCarouselImage text="First slide" />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={500}>
+        <ExampleCarouselImage text="Second slide" />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <ExampleCarouselImage text="Third slide" />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
-export default Testimonials
-// import React from "react";
-// import { MDBCard, MDBCardBody, MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
-// import "./Testimonials.css"; // Import the CSS file for styling
-
-// export default function Testimonials() {
-//   return (
-//     <div>
-//     <h2>Automatic Slideshow</h2>
-// <p>Change image every 2 seconds:</p>
-
-// <div class="slideshow-container">
-
-// <div class="mySlides fade">
-//   <div class="numbertext">1 / 3</div>
-//   <img src="img_nature_wide.jpg" style="width:100%">
-//   <div class="text">Caption Text</div>
-// </div>
-
-// <div class="mySlides fade">
-//   <div class="numbertext">2 / 3</div>
-//   <img src="img_snow_wide.jpg" style="width:100%">
-//   <div class="text">Caption Two</div>
-// </div>
-
-// <div class="mySlides fade">
-//   <div class="numbertext">3 / 3</div>
-//   <img src="img_mountains_wide.jpg" style="width:100%">
-//   <div class="text">Caption Three</div>
-// </div>
-
-// </div>
-// <br/>
-
-// <div style="text-align:center">
-//   <span class="dot"></span> 
-//   <span class="dot"></span> 
-//   <span class="dot"></span> 
-// </div>
-
-//     </div>
-//   );
-// }
+export default Testimonials;
