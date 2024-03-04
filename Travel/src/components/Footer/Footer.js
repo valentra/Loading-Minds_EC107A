@@ -9,7 +9,7 @@ const Footer = () => {
           
         <div class="col-sm-12 col-md-6 ">
             <h6>About</h6>
-            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+            <p class="text-justify">Embark on your journey of discovery with<br/> our seamless travel experiences, unlocking the wonders of the world at your fingertips.</p>
           </div>
           <div class="col-xs-6 col-md-3">
             <h6>Categories</h6>
