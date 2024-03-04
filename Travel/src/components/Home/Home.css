@@ -7,12 +7,52 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-h1
-{
-    color: white;
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #162237;
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     z-index: 2;
+    padding: 0 100px; /* Add this line */
 }
+.block
+{
+    background: #fff;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 40px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+.bookTripButton {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #BB6A8B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bookTripButton:hover {
+    background-color: #9b507a;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  
+  .bookTripButton:active {
+    transform: translateY(2px);
+  }
