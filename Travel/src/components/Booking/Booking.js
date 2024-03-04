@@ -40,109 +40,28 @@ const Carousel = ({ cards }) => {
   }, [cards]);
 
   return (
-    <CardContainer>
+    <div className="card-container">
       {cards.map((card, index) => (
-        <Card key={index} active={index === currentCardIndex} index={index} currentIndex={currentCardIndex}>
-          <CardImage src={card.image} alt={card.title} />
-          <CardTitle>{card.title}</CardTitle>
-          <CardDescription>{card.description}</CardDescription>
-          <Price>{card.price}</Price>
-          <BookButton>Book Now</BookButton>
-        </Card>
+        <div className={`card ${index === currentCardIndex ? 'active' : ''}`} key={index}>
+          <img className="card-image" src={card.image} alt={card.title} />
+          <h3 className="card-title">{card.title}</h3>
+          <p className="card-description">{card.description}</p>
+          <p className="price">{card.price}</p>
+          <button className="book-button">Book Now</button>
+        </div>
       ))}
-    </CardContainer>
+    </div>
   );
 };
 
 const Booking = () => {
   return (
-    <Container className="booking-section">
-    <BookingImage src={bookingImage} alt="Booking" />
-      <Title>Book Your Stay</Title>
+    <div className="booking-section">
+      <img className="booking-image" src={bookingImage} alt="Booking" />
+      <h2 className="booking-title">Book Your Stay</h2>
       <Carousel cards={sampleCards} />
-    </Container>
+    </div>
   );
 };
-
-const Container = styled.section`
-  padding: 2rem;
-`;
-
-const BookingImage = styled.img`
-  display: block;
-  margin: 0 auto; 
-  width: 60vh; 
-  height: auto; 
-  animation: rotate 10s linear infinite; 
-  
-  @keyframes rotate {
-    0% {
-      transform: rotate(360deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-`;
-
-
-const Title = styled.h2`
-  text-align: center;
-  margin-bottom: 2rem;
-  color: #fff;
-`;
-
-const CardContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
-`;
-
-const Card = styled.div`
-  background-color: #f9f9f9;
-  padding: 1.5rem;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  width: 300px;
-  margin: 1rem;
-  transition: transform 0.3s ease;
-  transform: ${(props) => props.active ? `translateY(-10px)` : `translateY(0)`} ${(props) => props.index === props.currentIndex ? `scale(1.1)` : `scale(1)`};
-`;
-
-const CardImage = styled.img`
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
-`;
-
-const CardTitle = styled.h3`
-  color: #333;
-  margin-bottom: 1rem;
-`;
-
-const CardDescription = styled.p`
-  color: #666;
-  margin-bottom: 1rem;
-`;
-
-const Price = styled.p`
-  color: #333;
-  font-weight: bold;
-  margin-bottom: 1rem;
-`;
-
-const BookButton = styled.button`
-  background-color: #ff6b6b;
-  color: #fff;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  &:hover {
-    background-color: #ff4d4d;
-  }
-`;
 
 export default Booking;
