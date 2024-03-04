@@ -114,4 +114,8 @@
   .book-button:hover {
     background-color: rgb(138, 8, 58);
   }
-  
+  @media (max-width: 1000px) {
+    .booking-section{
+      display: none;
+    }
+  }
