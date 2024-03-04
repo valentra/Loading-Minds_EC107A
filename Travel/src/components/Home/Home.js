@@ -14,13 +14,13 @@ const Home = () => {
           <CiLocationOn style={{ color: '#BB6A8B', fontSize: '2rem' }} /> Destination
       </div>
       <div className='date' style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#333', fontSize: '1.2rem' }}>
-          <MdOutlineDateRange style={{ color: '#BB6A8B', fontSize: '2rem' }} /> Date: 01/01/2023
+          <MdOutlineDateRange style={{ color: '#BB6A8B', fontSize: '2rem' }} /> Date: 01/10/2023
       </div>
       <div className='people' style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#333', fontSize: '1.2rem' }}>
           <IoMdPerson style={{ color: '#BB6A8B', fontSize: '2rem' }} /> People: 2 Adults, 1 Child
       </div>
       <div className='book your trip'>
-        <button style={{ padding: '10px', fontSize: '1rem', backgroundColor: '#BB6A8B', color: 'white', border: 'none', borderRadius: '10px' }}>
+        <button className="bookTripButton">
           Book your trip!
         </button>
       </div>

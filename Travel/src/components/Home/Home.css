@@ -49,10 +49,12 @@
   
   .bookTripButton:hover {
     background-color: #9b507a;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 15px 20px rgba(159, 91, 190, 0.2);
     transform: translateY(-3px);
   }
   
   .bookTripButton:active {
     transform: translateY(2px);
   }
+
+  
