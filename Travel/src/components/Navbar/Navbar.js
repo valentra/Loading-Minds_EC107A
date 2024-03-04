@@ -16,9 +16,6 @@ const Navbar = () => {
           <div className='con'><a href="#">Booking</a></div>
         </div>
         <div className='icon-container'>
-          <div className='con'><a href="#">Reviews</a></div>
-        </div>
-        <div className='icon-container'>
           <div className='con'><a href="#">Testimonials</a></div>
         </div>
         <div className='icon-container'>
