@@ -57,6 +57,9 @@ const Carousel = ({ cards }) => {
 const Booking = () => {
   return (
     <div className="booking-section">
+      <div className="block2">
+      <p className="text-on-block">"Traveling is the art of painting your soul with the colors of the world's landscapes, sculpting memories that last a lifetime, and weaving stories into the fabric of your existence."</p>
+      </div>
       <img className="booking-image" src={bookingImage} alt="Booking" />
       <h2 className="booking-title">Book Your Stay</h2>
       <Carousel cards={sampleCards} />

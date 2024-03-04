@@ -1,15 +1,46 @@
 .booking-section{
+    padding: 2rem;
     background-color:rgba(22, 34, 55, 1);
+    position: relative;
 }.booking-section {
     padding: 2rem;
   }
-  
+  .block2 {
+    width: 100%; 
+    height: 300px; 
+    background-color: #162237; 
+    margin: 0rem 0; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1;
+  }
+  .text-on-block {
+    position: absolute;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    color: rgb(198, 43, 102); 
+    font-size: 1.5rem; 
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .highlight {
+    color: white;
+  }
   .booking-image {
     display: block;
     margin: 0 auto; 
-    width: 60vh; 
+    width: 80vh; 
     height: auto; 
-    animation: rotate 10s linear infinite; 
+    animation: rotate 20s linear infinite; 
+    position: relative; 
+    z-index: 0; 
   }
   
   @keyframes rotate {

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import "../Destination/Destination.css";
 import mapImage from "../../assets/japan.png"; // Assuming you have a map image in your assets folder
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
@@ -38,7 +39,8 @@ const Book = () => {
 };
 
 const BookingSection = styled.section`
-  background-color: #f9f9f9;
+  background-color: #0B6488;
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
   padding: 4rem 0;
 `;
 
@@ -59,7 +61,7 @@ const BookingForm = styled.form`
   background-color: #fff;
   border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
 `;
 
 const FormGroup = styled.div`
