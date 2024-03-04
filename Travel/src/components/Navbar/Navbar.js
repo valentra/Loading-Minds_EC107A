@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Navbar/navbar.css';
 
 const Navbar = () => {
-  return (
+  const [isChecked, setIsChecked] = useState(false);
 
-    <div className="nav__container">
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+  };
+
+  return (
+    <>
+      <label>
+        <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} />
+        <span className="menu">
+          <span className="hamburger"></span>
+        </span>
+        <ul style={{ display: isChecked ? 'block' : 'none' }}>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">BOOKING</a></li>
+          <li><a href="#">TESTIMONIALS</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </label>
+      <div className="nav__container">
       <div className="nav">
         <div className='icon-container'>
           <div className='con'><a href="#">Home</a></div>
@@ -23,8 +42,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-      
-    
+    </>
   );
 };
 
