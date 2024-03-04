@@ -60,7 +60,8 @@
   
   .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
   }
   
   .card {
@@ -117,5 +118,11 @@
   @media (max-width: 1000px) {
     .booking-section{
       display: none;
+    }
+  }
+  @media (max-width:898px){
+
+    .card-container {
+      flex-direction: column;
     }
   }

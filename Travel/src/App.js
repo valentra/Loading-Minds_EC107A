@@ -10,15 +10,15 @@ import Destination from "./components/Destination/Destination";
 
 export default function App() {
   return (
-    <div>
+    <div className="main">
       <Navbar />
       <Home />
       <About/>
       <Booking/>
       <Destination/>
-      <div className="App">
+      {/* <div className="App">
       <Testimonials/>
-      </div>
+      </div> */}
       
       <Contact/>
       <Footer/>
